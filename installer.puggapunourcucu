@@ -18,6 +18,8 @@ echo "TYPE HELP FOR HELP. MUSCLE>"
 read $MUSCLEY
 if [ $MUSCLEY == "help" ]; then
 echo -e "\e[50m FORCEXPLOIT - help"
+else
+ping $1
 fi
 }
 echo -e "\e[1;31;Good just type MUSCLERTTTT in terminal this is temporary no this in restart"  
