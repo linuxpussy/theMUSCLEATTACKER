@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+echo -e "\e[31m! : For security please deactivate AntiVirus \e[32mIf you dont have ANTIVIRUS ITS GOOD."
+echo -e "\e[1;31;42m Packing SECURITY TOOLS\e[0m" 
+sudo apt install mercure
+sudo apt install ruby-gems
+sudo apt install python3-pyfiglet
+sudo apt install lolcat
+clear
+echo "\e[1;31;42mwht pkg include???"
+read $WHAT
+sudo apt install $WHAT
+echo -e "\e[1;31;42mEEEEK.."
+clear
+function MUSCLERTTTT() {
+pyfiglet -f computer "MUSCLERTTTT"
+lolcat
+echo "TYPE HELP FOR HELP. MUSCLE>"
+read $MUSCLEY
+if [ $MUSCLEY == "help" ]; then
+echo -e "\e[50m FORCEXPLOIT - help"
+fi
+}
+echo -e "\e[1;31;Good just type MUSCLERTTTT in terminal this is temporary no this in restart"  
